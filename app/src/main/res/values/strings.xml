@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GGConnect</string>
+    <string name="login">התחברות</string>
+    <string name="register">הרשמה</string>
+    <string name="email">אימייל</string>
+    <string name="password">סיסמה</string>
+    <string name="no_account">אין לך חשבון? הרשמה</string>
+    <string name="setup_profile">הגדרת פרופיל שחקן</string>
+    <string name="edit_games">עריכת משחקים מועדפים</string>
+    <string name="full_name">שם מלא / כינוי</string>
+    <string name="age">גיל</string>
+    <string name="bio">ספר לנו על עצמך...</string>
+    <string name="bio_hint">ספר קצת על עצמך (סגנון משחק, שעות...)</string>
+    <string name="select_games">בחר משחקים מועדפים:</string>
+    <string name="save_continue">שמור והמשך</string>
+    <string name="online_now">מחוברים כעת</string>
+    <string name="offline">לא מחובר</string>
+    <string name="disconnect">התנתקות</string>
+    <string name="my_friends">החברים שלי</string>
+    <string name="my_profile">הפרופיל שלי</string>
+    <string name="groups">קבוצות</string>
+    <string name="search_hint">חיפוש...</string>
+    <string name="language_select">בחר שפה / Choose Language</string>
+
+    <string name="error_name">חובה להזין שם</string>
+    <string name="error_age">חובה להזין גיל</string>
+    <string name="error_games">חובה לבחור לפחות משחק אחד!</string>
+    <string name="profile_saved">פרופיל נשמר בהצלחה!</string>
+    <string name="register_success">הרשמה הצליחה!</string>
+    <string name="register_failed">"הרשמה נכשלה: "</string>
+    <string name="login_success">התחברות הצליחה!</string>
+    <string name="login_failed">התחברות נכשלה</string>
+    <string name="games_updated">המשחקים עודכנו!</string>
+    <string name="fill_all_fields">נא למלא את כל השדות</string>
+
+    <string name="age_range_label">"טווח גילאים: "</string>
+    <string name="age_range_all">טווח גילאים: הכל</string>
+    <string name="user_default_name">משתמש</string>
+    <string name="no_friends_message">אין לך חברים ברשימה</string>
+    <string name="no_name">ללא שם</string>
+    <string name="age_prefix">"בן/בת "</string>
+    <string name="add_age">הוסף גיל</string>
+    <string name="no_bio">אין מידע נוסף.</string>
+    <string name="field_name">שם</string>
+    <string name="field_age">גיל</string>
+    <string name="field_bio">קצת עליי</string>
+    <string name="send_message">שלח הודעה</string>
+    <string name="edit_prefix">"ערוך "</string>
+    <string name="save">שמור</string>
+    <string name="update_success">עודכן בהצלחה</string>
+    <string name="cancel">ביטול</string>
+    <string name="friends_checked">חברים ✓</string>
+    <string name="add_friend">הוסף חבר</string>
+    <string name="friend_added">התווסף לרשימת החברים!</string>
+
+    <string name="menu_desc">תפריט</string>
+    <string name="filter_by">סנן לפי:</string>
+    <string name="game">משחק</string>
+    <string name="username">שם משתמש</string>
+    <string name="bio_placeholder">כאן יהיה התיאור של השחקן...</string>
+    <string name="options">אפשרויות</string>
+
+    <string name="account_settings">הגדרות חשבון</string>
+    <string name="change_email">שינוי אימייל</string>
+    <string name="change_password">שינוי סיסמה</string>
+    <string name="new_email">אימייל חדש</string>
+    <string name="new_password">סיסמה חדשה</string>
+    <string name="update">עדכן</string>
+    <string name="email_updated">האימייל עודכן בהצלחה!</string>
+    <string name="password_updated">הסיסמה עודכנה בהצלחה!</string>
+    <string name="error_reauth">יש להתחבר מחדש לפני ביצוע פעולה זו</string>
+    <string name="friends_title">חברים</string>
+    <string name="common_friends">חברים משותפים</string>
+    <string name="remove_friend">הסר חבר</string>
+    <string name="friend_removed">הוסר מרשימת החברים</string>
+</resources>

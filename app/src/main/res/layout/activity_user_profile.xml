@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Header Image -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:id="@+id/ivProfileImageHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/sym_def_app_icon"
+                android:scaleType="centerInside"
+                android:padding="25dp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Name Section -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tvProfileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_name"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"/>
+            <ImageButton
+                android:id="@+id/btnEditName"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                app:tint="@color/colorAccent"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- Age Section -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="4dp">
+            <TextView
+                android:id="@+id/tvProfileAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="17sp"
+                android:textColor="@color/colorTextSecondary"/>
+            <ImageButton
+                android:id="@+id/btnEditAge"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                app:tint="@color/colorAccent"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- Bio Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/field_bio"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorTextPrimary"/>
+                    <ImageButton
+                        android:id="@+id/btnEditBio"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@android:drawable/ic_menu_edit"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:scaleType="fitCenter"
+                        app:tint="@color/colorAccent"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvProfileBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bio_placeholder"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorTextSecondary"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Games Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="12dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/edit_games"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorTextPrimary"/>
+                    <ImageButton
+                        android:id="@+id/btnEditGames"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@android:drawable/ic_menu_edit"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:scaleType="fitCenter"
+                        app:tint="@color/colorAccent"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/profileGamesContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Friends List Section -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardFriends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/friends_title"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTextPrimary"
+                    android:layout_marginBottom="12dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvUserFriends"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Common Friends Section -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCommonFriends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="@color/colorSurface"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/common_friends"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorTextPrimary"
+                    android:layout_marginBottom="12dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCommonFriends"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Action Buttons -->
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/send_message"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:backgroundTint="@color/colorAccent"
+            app:cornerRadius="28dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnAddFriend"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/add_friend"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:backgroundTint="@color/colorAccent"
+            app:cornerRadius="28dp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnRemoveFriend"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/remove_friend"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:backgroundTint="#FF5252"
+            app:cornerRadius="28dp"
+            android:visibility="gone"
+            android:elevation="4dp"/>
+
+    </LinearLayout>
+</ScrollView>

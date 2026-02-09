@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GGConnect</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="setup_profile">Setup Player Profile</string>
+    <string name="edit_games">Edit Favorite Games</string>
+    <string name="full_name">Full Name / Nickname</string>
+    <string name="age">Age</string>
+    <string name="bio">Tell us about yourself...</string>
+    <string name="bio_hint">Tell us a bit about yourself (playstyle, hours...)</string>
+    <string name="select_games">Select Favorite Games:</string>
+    <string name="save_continue">Save &amp; Continue</string>
+    <string name="online_now">Online Now</string>
+    <string name="offline">Offline</string>
+    <string name="disconnect">Logout</string>
+    <string name="my_friends">My Friends</string>
+    <string name="my_profile">My Profile</string>
+    <string name="groups">Groups</string>
+    <string name="search_hint">Search...</string>
+    <string name="language_select">Choose Your Language / בחר שפה</string>
+
+    <string name="error_name">Name is required</string>
+    <string name="error_age">Age is required</string>
+    <string name="error_games">You must select at least one game!</string>
+    <string name="profile_saved">Profile saved successfully!</string>
+    <string name="register_success">Registration successful!</string>
+    <string name="register_failed">"Registration failed: "</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed</string>
+    <string name="games_updated">Games updated!</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+
+    <string name="age_range_label">"Age Range: "</string>
+    <string name="age_range_all">Age Range: All</string>
+    <string name="user_default_name">User</string>
+    <string name="no_friends_message">You have no friends in your list</string>
+    <string name="no_name">No Name</string>
+    <string name="age_prefix">"Age: "</string>
+    <string name="add_age">Add Age</string>
+    <string name="no_bio">No additional info.</string>
+    <string name="field_name">Name</string>
+    <string name="field_age">Age</string>
+    <string name="field_bio">About Me</string>
+    <string name="send_message">Send Message</string>
+    <string name="edit_prefix">"Edit "</string>
+    <string name="save">Save</string>
+    <string name="update_success">Updated successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="friends_checked">Friends ✓</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="friend_added">Added to friends list!</string>
+
+    <string name="menu_desc">Menu</string>
+    <string name="filter_by">Filter by:</string>
+    <string name="game">Game</string>
+    <string name="username">Username</string>
+    <string name="bio_placeholder">The player\'s description will be here...</string>
+    <string name="options">Options</string>
+
+    <string name="account_settings">Account Settings</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_email">New Email</string>
+    <string name="new_password">New Password</string>
+    <string name="update">Update</string>
+    <string name="email_updated">Email updated successfully!</string>
+    <string name="password_updated">Password updated successfully!</string>
+    <string name="error_reauth">Please re-login before performing this action</string>
+    <string name="friends_title">Friends</string>
+    <string name="common_friends">Common Friends</string>
+    <string name="remove_friend">Remove Friend</string>
+    <string name="friend_removed">Removed from friends list</string>
+</resources>

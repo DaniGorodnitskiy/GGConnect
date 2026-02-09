@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218755535899",
+    "project_id": "myggconnect",
+    "storage_bucket": "myggconnect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218755535899:android:394db747b1e4fe064c94be",
+        "android_client_info": {
+          "package_name": "com.example.ggconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYF2BXamI5eCqYQWntyHRujngyb2c6iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/my_friends" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/groups" />
+    </group>
+
+    <item android:title="@string/options">
+        <menu>
+            <item
+                android:id="@+id/nav_account_settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/account_settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/disconnect" />
+        </menu>
+    </item>
+</menu>
